@@ -1,0 +1,16 @@
+.feed {
+  display: flex;
+  justify-content: space-between;
+
+  .feed-block {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
