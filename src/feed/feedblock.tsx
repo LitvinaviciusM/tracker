@@ -1,10 +1,6 @@
 import * as React from 'react';
 import Svg from '../common/components/svg';
-
-interface FeedBlockProps {
-    variant: string,
-    glyph: string,
-}
+import { FeedBlockProps } from '../common/interfaces';
 
 const FeedBlock: React.FunctionComponent<FeedBlockProps> = ({
   variant,

@@ -1,5 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Feed from './feed';
+import App from './app/app';
 
-ReactDOM.render(<Feed />, document.getElementById('root') as HTMLElement);
+ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);

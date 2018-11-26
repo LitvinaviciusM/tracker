@@ -1,9 +1,5 @@
 import * as React from 'react';
-
-interface SvgProps {
-  className: string,
-  glyph: string,
-}
+import { SvgProps } from '../interfaces';
 
 const Svg: React.FunctionComponent<SvgProps> = ({ glyph, className }) => (
   <img
