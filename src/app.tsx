@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Feed from '../feed';
-import Header from '../header';
-import Profile from '../profile';
+import Feed from './features/feed';
+import Header from './features/header';
+import Profile from './features/profile';
 
 const App: React.FunctionComponent = () => (
     <div className="home">

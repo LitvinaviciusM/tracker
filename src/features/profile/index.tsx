@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-const Profile: React.FunctionComponent = () => (
+const Index: React.FunctionComponent = () => (
     <div>
         Profile
     </div>
 );
 
-export default Profile;
+export default Index;

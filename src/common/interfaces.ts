@@ -16,11 +16,11 @@ export interface Candidate {
     profilePic: string,
 }
 
-export interface initCandidatesAction {
+export interface InitCandidatesAction {
     type: CandidatesActionTypes.INIT_CANDIDATES,
     payload: Candidate[],
 }
 
-export interface State {
+export interface AppState {
     candidates: Candidate[],
 }

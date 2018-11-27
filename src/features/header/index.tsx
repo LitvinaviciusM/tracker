@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-const Header: React.FunctionComponent = () => (
+const Index: React.FunctionComponent = () => (
     <div>
         Header
     </div>
 );
 
-export default Header;
+export default Index;
