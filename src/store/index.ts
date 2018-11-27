@@ -1,6 +1,7 @@
-import * as app from './reducers';
-import { AppState } from '../common/interfaces';
+import { createStore } from 'redux';
+import { reducer } from '../reducers';
+import { State } from '../common/interfaces';
 
-const initialState: AppState = {
-    app:
-}
+const store = createStore<State, any, any, any>(reducer);
+
+export default store;
